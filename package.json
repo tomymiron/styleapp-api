@@ -1,0 +1,19 @@
+{
+  "name": "stylehub-server",
+  "version": "1.0.0",
+  "description": "This is the main an oficial server of stylehub. Created for tomymiron.",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "author": "tomy",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  },
+  "type": "module"
+}
