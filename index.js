@@ -1,4 +1,5 @@
 import storeRoutes from "./routes/store.js";
+import bookRoutes from "./routes/book.js";
 import userRoutes from "./routes/user.js";
 import authRoutes from "./routes/auth.js";
 import express from "express";
@@ -25,6 +26,7 @@ app.use(
 );
 // Main Routes
 app.use("/store", storeRoutes);
+app.use("/book", bookRoutes)
 app.use("/user", userRoutes);
 app.use("/auth", authRoutes);
 
